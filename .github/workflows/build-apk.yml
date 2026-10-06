@@ -1,4 +1,5 @@
 name: Build Android APK
+name: Build Android APK
 
 on:
   push:
@@ -8,7 +9,7 @@ on:
 jobs:
   build:
     name: Compile & Package APK
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout Repository
